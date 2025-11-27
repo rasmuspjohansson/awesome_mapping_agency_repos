@@ -40,3 +40,8 @@ https://github.com/ivaroveland
 ---
 
 If you know more repositories or have details for missing items (e.g., 'myria', 'maestro', 'lastig'), please consider submitting a pull request or opening an issue!
+
+
+## Other links
+
+https://github.com/satellite-image-deep-learning/techniques
