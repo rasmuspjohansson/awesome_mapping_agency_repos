@@ -10,6 +10,7 @@ A collection of GEO/ML GitHub repositories from different mapping agencies.
 - [ML_geo_production](https://github.com/SDFIdk/ML_geo_production): Using ensambles of semantic segmentation models in production. (used for building change detection)
 - [laz-superpoint_transformer](https://github.com/SDFIdk/laz-superpoint_transformer): Training and inference for LiDAR point cloud(.laz) (proof of concept stage but works very well) 
 - [ML_sdfi_fastai2](https://github.com/SDFIdk/ML_sdfi_fastai2): Training and validation of semantic segmetnation models with fastai2 (used for training all semantic segmetnation models at KDS)
+- [multi_channel_dataset-example](https://github.com/SDFIdk/multi_channel_dataset_creation): Example data used by the examples in the some other repos. Also contains code for label creation, dataset splits etc
 - [ML_object_detection](https://github.com/SDFIdk/ML_object_detection): training and inference with yolo models for object detection. The detection code can produce huge images and creates labelme ready .json files. 
 - [permeable surfaces](https://dataforsyningen.dk/labs/2259)   : using resent34 unets with multichannel images made up of rgb-Nir-ortofoto, DSM, DTM and obliqe rgb-nir-images. This is an interactive map you can explore 
 
