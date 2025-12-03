@@ -29,7 +29,7 @@ A collection of GEO/ML GitHub repositories from different mapping agencies.
 
 🔧 Code – [IGNF on Github](https://github.com/IGNF) 
 
-- [FLAIR-HUB](https://github.com/IGNF/FLAIR-HUB): Code for land-cover map (CoSIA) and crop-type mapping generation. Sandbox with monomodal / multimodal TIFF inputs (aerial images, historical images, SPOT, Sentinel-1 & 2, elevation).
+- [FLAIR-HUB](https://github.com/IGNF/FLAIR-HUB): Code for land-cover map (CoSIA) and crop-type mapping generation. Sandbox with monomodal / multimodal TIFF inputs (aerial images, historical images, SPOT, Sentinel-1 & 2, elevation). See some CoSIA results [here](https://ignf.github.io/cosia-viewer/).
 - [FLAIR-1](https://github.com/IGNF/FLAIR-1): land-cover segmentic segmentation training, inference over large areas with pre-trained models.
 - [myria3d](https://github.com/IGNF/myria3d): Training and inference on LiDAR point-cloud LAZ files (with RGB-NIR color).
 - [MAESTRO](https://github.com/IGNF/MAESTRO): Adaptation of the SSL Masked Autoencoder (MAE) framework for multimodal, multitemporal, multispectral EO data.
