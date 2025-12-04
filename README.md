@@ -28,13 +28,21 @@ A collection of GEO/ML GitHub repositories from different mapping agencies.
 
 ## France
 
-- [FLAIR-HUB](https://github.com/IGNF/FLAIR-HUB): Repository related to French spatial data.
-- **Other French agencies/tools:**  
-  _Details/links missing for:_  
-  - [myria3d](https://github.com/IGNF/myria3d)  Training and inference on lidar pointcloud laz files (enriched with RGB-nir colour)
-  - maestro
-  - lastig
- 
+🔧 Code – [IGNF on Github](https://github.com/IGNF) 
+
+- [FLAIR-HUB](https://github.com/IGNF/FLAIR-HUB): Code for land-cover map (CoSIA) and crop-type mapping generation. Sandbox with monomodal / multimodal TIFF inputs (aerial images, historical images, SPOT, Sentinel-1 & 2, elevation). See some CoSIA results [here](https://ignf.github.io/cosia-viewer/).
+- [FLAIR-1](https://github.com/IGNF/FLAIR-1): land-cover segmentic segmentation training, inference over large areas with pre-trained models.
+- [myria3d](https://github.com/IGNF/myria3d): Training and inference on LiDAR point-cloud LAZ files (with RGB-NIR color).
+- [MAESTRO](https://github.com/IGNF/MAESTRO): Adaptation of the SSL Masked Autoencoder (MAE) framework for multimodal, multitemporal, multispectral EO data.
+
+📚 Datasets – [IGNF on HugginFace]( https://huggingface.co/IGNF)
+
+- [FLAIR-HUB](https://huggingface.co/datasets/IGNF/FLAIR-HUB): 19 land-cover classes + 46 crop classes over >2500 km² in France at 20 cm resolution, manually photo-interpreted.
+- [PASTIS-HD](https://huggingface.co/datasets/IGNF/PASTIS-HD): 2,433 patches with Sentinel-1, Sentinel-2, and SPOT imagery, with panoptic agricultural cover annotations.
+- [TreeSatAI-TS](https://huggingface.co/datasets/IGNF/TreeSatAI-Time-Series): Extension of TreeSatAI with yearly Sentinel time-series for tree-species classification over Germany.
+- [PureForest](https://huggingface.co/datasets/IGNF/PureForest): 449 forest sites in France with LiDAR and aerial imagery for tree-species classification.
+
+
 ## Norway
 https://github.com/ivaroveland
 
