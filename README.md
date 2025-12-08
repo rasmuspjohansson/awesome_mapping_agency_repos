@@ -12,7 +12,11 @@ A collection of GEO/ML GitHub repositories from different mapping agencies.
 - [ML_sdfi_fastai2](https://github.com/SDFIdk/ML_sdfi_fastai2): Training and validation of semantic segmetnation models with fastai2 (used for training all semantic segmetnation models at KDS)
 - [multi_channel_dataset-example](https://github.com/SDFIdk/multi_channel_dataset_creation): Example data used by the examples in the some other repos. Also contains code for label creation, dataset splits etc
 - [ML_object_detection](https://github.com/SDFIdk/ML_object_detection): training and inference with yolo models for object detection. The detection code can produce huge images and creates labelme ready .json files. 
-- [permeable surfaces](https://dataforsyningen.dk/labs/2259)   : using resent34 unets with multichannel images made up of rgb-Nir-ortofoto, DSM, DTM and obliqe rgb-nir-images. This is an interactive map you can explore 
+- [permeable surfaces](https://dataforsyningen.dk/labs/2259)   : using resent34 unets with multichannel images made up of rgb-Nir-ortofoto, DSM, DTM and obliqe rgb-nir-images. This is an interactive map you can explore
+
+📚 Datasets – [KDS on HugginFace]( https://huggingface.co/rasmuspjohansson) 
+
+- [Example_dataset](https://huggingface.co/datasets/rasmuspjohansson/example_dataset): Same as  what comes together with [multi_channel_dataset-example](https://github.com/SDFIdk/multi_channel_dataset_creation) Buildings (binary classes) and permeable surfaces(9 classes)
 
 
 ## Spain
