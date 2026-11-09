@@ -23,7 +23,10 @@
 
 ### 🤖 Models
 
-- [KDS_buildings](https://huggingface.co/rasmuspjohansson/KDS_buildings)
+Both model repos are private. Non-commercial use is available by emailing [rajoh@kds.dk](mailto:rajoh@kds.dk).
+
+- [KDS_buildings](https://huggingface.co/rasmuspjohansson/KDS_buildings): change detection (ændringsudpegning). Private.
+- [KDS_Permeable_surfaces](https://huggingface.co/rasmuspjohansson/KDS_Permeable_surfaces): befæstelse. Private.
 
 ### 🐳 Docker
 
