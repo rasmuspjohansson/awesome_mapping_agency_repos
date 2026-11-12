@@ -15,18 +15,21 @@
 - [ML_object_detection](https://github.com/SDFIdk/ML_object_detection): Training and inference with YOLO models for object detection. Supports large image outputs and generates LabelMe-ready `.json` files.
 - [Permeable Surfaces (interactive map)](https://dataforsyningen.dk/labs/2259): ResNet34 U-Nets trained on multi-channel imagery (RGB-NIR orthophotos, DSM, DTM, and oblique RGB-NIR images).
 
-### 📚 Datasets – [KDS on Hugging Face](https://huggingface.co/rasmuspjohansson)
+### 📚 Datasets – [KDS on Hugging Face](https://huggingface.co/Danish-Agency-for-Cimate-Data)
 
-- [example_dataset](https://huggingface.co/datasets/rasmuspjohansson/example_dataset): Buildings (binary) and permeable surfaces (9 classes). Matches the `multi_channel_dataset_creation` repo.
-- [KDS_objects_in_oblique_images](https://huggingface.co/datasets/rasmuspjohansson/KDS_objects_in_oblique_images)
-- [KDS_laz_dataset](https://huggingface.co/datasets/rasmuspjohansson/KDS_laz_dataset)
+The KDS models and datasets on Hugging Face are private. They are available for non-commercial use; email [rajoh@kds.dk](mailto:rajoh@kds.dk) for access.
+
+- [KDS_building_change_detection](https://huggingface.co/datasets/Danish-Agency-for-Cimate-Data/KDS_building_change_detection): rooftop RGB tiles and building labels (release `v2026.1`).
+- [KDS_befaestelse](https://huggingface.co/datasets/Danish-Agency-for-Cimate-Data/KDS_befaestelse): surface-type tiles (rgb, cir, orthophotos, DSM, DTM) and labels (release `v2026.1`).
+- [example_dataset](https://huggingface.co/datasets/Danish-Agency-for-Cimate-Data/example_dataset): Buildings (binary) and permeable surfaces (9 classes). Matches the `multi_channel_dataset_creation` repo.
+- [KDS_objects_in_oblique_images](https://huggingface.co/datasets/Danish-Agency-for-Cimate-Data/KDS_objects_in_oblique_images)
+- [KDS_laz_dataset](https://huggingface.co/datasets/Danish-Agency-for-Cimate-Data/KDS_laz_dataset)
 
 ### 🤖 Models
 
-Both model repos are private. Non-commercial use is available by emailing [rajoh@kds.dk](mailto:rajoh@kds.dk).
-
-- [KDS_buildings](https://huggingface.co/rasmuspjohansson/KDS_buildings): change detection (ændringsudpegning). Private.
-- [KDS_Permeable_surfaces](https://huggingface.co/rasmuspjohansson/KDS_Permeable_surfaces): befæstelse. Private.
+- [KDS_buildings](https://huggingface.co/Danish-Agency-for-Cimate-Data/KDS_buildings): change detection (ændringsudpegning). The 2026 production ensemble is iter 71, iter 76 and iter 75.
+- [KDS_Permeable_surfaces](https://huggingface.co/Danish-Agency-for-Cimate-Data/KDS_Permeable_surfaces): befæstelse. The 2026 production ensemble is iter 122, iter 121 and iter 79.
+- [KDS_spt_laz](https://huggingface.co/Danish-Agency-for-Cimate-Data/KDS_spt_laz): Superpoint Transformer checkpoint for the toy LAZ dataset.
 
 ### 🐳 Docker
 
