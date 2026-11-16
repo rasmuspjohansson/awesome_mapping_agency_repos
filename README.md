@@ -83,6 +83,7 @@ The KDS models and datasets on Hugging Face are private. They are available for 
 ## 🌍 Other Resources
 
 - [satellite-image-deep-learning/techniques](https://github.com/satellite-image-deep-learning/techniques): A broad reference for deep learning techniques applied to satellite imagery.
+- [A shared registry of geospatial AI models](https://for63-ai.github.io/AI-Model-Registry/) :Maintained by Europe's national mapping and cadastral agencies.
 
 ---
 
