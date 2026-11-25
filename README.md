@@ -65,7 +65,8 @@ The KDS models and datasets on Hugging Face are private. They are available for 
 - [PASTIS-HD](https://huggingface.co/datasets/IGNF/PASTIS-HD): 2,433 patches with Sentinel-1, Sentinel-2, and SPOT imagery, with panoptic agricultural cover annotations.
 - [TreeSatAI-TS](https://huggingface.co/datasets/IGNF/TreeSatAI-Time-Series): Extension of TreeSatAI with yearly Sentinel time-series for tree-species classification over Germany.
 - [PureForest](https://huggingface.co/datasets/IGNF/PureForest): 449 forest sites in France with LiDAR and aerial imagery for tree-species classification.
-
+- [LidarHD](https://cartes.gouv.fr/telechargement/IGNF_NUAGES-DE-POINTS-LIDAR-HD) : lidar for france , tile by tile for download
+- [malibu] (https://louisgeist.github.io/malibu/) : labeled ML ready lidar dataset for france
 ---
 
 ## 🇳🇴 Norway
